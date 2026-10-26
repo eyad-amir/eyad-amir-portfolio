@@ -1,6 +1,6 @@
 export const site = {
   name: "Eyad Amir",
-  role: "AI/ML Engineer in training",
+  role: "AI/ML Engineer",
   university:
     "Computer & Communication Engineering student at Alexandria University",
   location: "Alexandria, Egypt",
@@ -13,7 +13,6 @@ export const site = {
   hero: {
     eyebrow: "ENGINEERING WITH INTELLIGENCE",
     title: "AI/ML Engineer",
-    emphasis: "in training.",
     description:
       "Turning curiosity into practical solutions with Python, machine learning, and data.",
     rotating: ["Python", "Machine Learning", "Deep Learning", "Data"],

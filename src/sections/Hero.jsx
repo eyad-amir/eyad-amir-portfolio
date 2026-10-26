@@ -29,8 +29,6 @@ export default function Hero() {
           <p className="eyebrow">{site.hero.eyebrow}</p>
           <h1 id="hero-title">
             {site.hero.title}
-            <br />
-            <em>{site.hero.emphasis}</em>
           </h1>
           <p className="hero-university">{site.university}</p>
           <p className="hero-description">{site.hero.description}</p>
