@@ -8,7 +8,7 @@ export const site = {
   phone: "+20 100 760 3503",
   showPhone: false,
   github: "https://github.com/eyad-amir",
-  linkedin: "https://linkedin.com/in/eyad-amir-65521b369",
+  linkedin: "https://www.linkedin.com/in/eyad-amir-65521b369",
   cv: "Eyad_Amir_CV.pdf",
   hero: {
     eyebrow: "ENGINEERING WITH INTELLIGENCE",

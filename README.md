@@ -33,7 +33,7 @@ Theme follows system preference on the first visit (dark fallback) and persists 
 
 1. `src/assets/profile.jpg`: currently contains the portrait extracted from your supplied PDF. Replace with a higher-resolution square portrait if desired.
 2. `src/assets/olympic-dashboard.png`: an **illustrative placeholder**, not a screenshot of your running application. Replace with an actual screenshot, update its alt text in `projects.js`, and change the preview caption in `site.js`.
-3. `public/Eyad_Amir_CV.pdf`: explicitly labeled placeholder. Replace with your final CV, retaining the filename.
+3. `public/Eyad_Amir_CV.pdf`: your supplied Eyad_Amir_CV_v4.pdf is included. Replace this file when updating your CV, retaining the filename.
 4. `public/og-image.png`: included social card. The `og:image` in `index.html` uses the full GitHub Pages URL. If you move the site, update it to the new full absolute URL (for example `https://eyad-amir.github.io/eyad-amir-portfolio/og-image.png`) for reliable social previews. Add an `og:url` and canonical URL with that same final site address if desired.
 
 Assets and CV links respect Vite's base path. Do not link to `/public/...` in deployed HTML: Vite serves the contents of public at the base root.
