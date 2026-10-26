@@ -34,7 +34,7 @@ Theme follows system preference on the first visit (dark fallback) and persists 
 1. `src/assets/profile.jpg`: currently contains the portrait extracted from your supplied PDF. Replace with a higher-resolution square portrait if desired.
 2. `src/assets/olympic-dashboard.png`: an **illustrative placeholder**, not a screenshot of your running application. Replace with an actual screenshot, update its alt text in `projects.js`, and change the preview caption in `site.js`.
 3. `public/Eyad_Amir_CV.pdf`: explicitly labeled placeholder. Replace with your final CV, retaining the filename.
-4. `public/og-image.png`: included social card. Once you know the deployed URL, set `og:image` in `index.html` to its full absolute URL (for example `https://eyad-amir.github.io/eyad-amir-portfolio/og-image.png`) for reliable social previews. Add an `og:url` and canonical URL with that same final site address if desired.
+4. `public/og-image.png`: included social card. The `og:image` in `index.html` uses the full GitHub Pages URL. If you move the site, update it to the new full absolute URL (for example `https://eyad-amir.github.io/eyad-amir-portfolio/og-image.png`) for reliable social previews. Add an `og:url` and canonical URL with that same final site address if desired.
 
 Assets and CV links respect Vite's base path. Do not link to `/public/...` in deployed HTML: Vite serves the contents of public at the base root.
 
@@ -57,7 +57,9 @@ git push -u origin main
 
 In GitHub repository **Settings → Pages → Build and deployment → Source**, choose **GitHub Actions**. If the first workflow ran before Pages was enabled, rerun it from the Actions tab. `.github/workflows/deploy.yml` installs from the npm lockfile, builds and publishes each push to main. Intended URL: `https://eyad-amir.github.io/eyad-amir-portfolio/`.
 
-No GitHub repository has been created or pushed by this delivery. Deployment takes place when you push to your own repository and enable Pages.
+Repository: https://github.com/eyad-amir/eyad-amir-portfolio
+
+GitHub Pages is configured to deploy through GitHub Actions. Future pushes to main publish automatically.
 
 ## Structure
 

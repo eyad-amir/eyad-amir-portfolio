@@ -9,5 +9,5 @@
 - All skills consolidated into one Core skills collection across six categories, per the latest request; no Currently learning heading remains.
 - Supplied portrait extracted successfully. Project image remains an explicitly labeled illustrative placeholder. CV placeholder reopened and visually rendered successfully.
 - Main bundle: approximately 95.22 KB gzip; CSS approximately 5.16 KB gzip. Portrait approximately 16.18 KB; dashboard placeholder approximately 44.98 KB.
-- Lighthouse and a live GitHub Pages deployment were not run. No 90+ score is claimed.
-- GitHub Actions workflow and npm lockfile included; no repository was created or pushed.
+- Lighthouse was not run. No 90+ score is claimed.
+- Repository created and source uploaded to eyad-amir/eyad-amir-portfolio. GitHub Linux runner passed npm ci and npm run build. Pages source configured as GitHub Actions.
